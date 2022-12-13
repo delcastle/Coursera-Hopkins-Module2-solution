@@ -1,17 +1,26 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  
 }
+
+  /* Simple Responsive Framework. */
+
+.row {
+  width: 100%;
+}
+
 
 h1 {
   color: magenta;
+  font-family: Helvetica;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 p {
   font-family: Helvetica;
   border: 2px solid black;
+  height: 150px;
   padding-top: 25px;
   padding-left: 10px;
   padding-right: 5px;
@@ -21,9 +30,13 @@ p {
 
 #box{
   background-color: lightgrey;
+  width: 95%;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 #content-chicken {
+	text-align: center;
 	font-family: Helvetica;
 	width: 70px;
   background-color: pink;
@@ -31,6 +44,7 @@ p {
   float: right;
 }
 #content-beef {
+	text-align: center;
 	font-family: Helvetica;
 	width: 70px;
   background-color: indianred;
@@ -38,6 +52,7 @@ p {
   float: right;
 }
 #content-sushi {
+	text-align: center;
 	font-family: Helvetica;
 	width: 70px;
   background-color: bisque;
@@ -49,11 +64,7 @@ body {
     background-color: white;
   }
 
-/* Simple Responsive Framework. */
 
-.row {
-  width: 100%;
-}
 
 /********** Desktop devices only **********/
 @media (min-width: 992px) {
@@ -141,7 +152,7 @@ body {
     width: 91.66%;
   }
   .col-tab-12 {
-    width: 100%;
+    width: 102.5%;
   }
 }
 
